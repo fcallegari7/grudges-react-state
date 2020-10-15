@@ -4,7 +4,7 @@ import id from 'uuid/v4';
 
 import initialState from './initialState';
 
-const GrudgeContext = createContext();
+export const GrudgeContext = createContext();
 
 // React.memo - if it takes the same object as before, don't rerender.
 // useCallback

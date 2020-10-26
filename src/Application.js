@@ -1,7 +1,8 @@
-import React, { useContext } from 'react';
+import React, { useContext, useReducer } from 'react';
 import { GrudgeContext } from './GrudgeContext';
 
 import Grudges from './Grudges';
+import initialState from './initialState';
 import NewGrudge from './NewGrudge';
 
 const Application = () => {
